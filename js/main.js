@@ -228,7 +228,7 @@ function descuentosFruteria() {
                 alert("El usuario debe pegar" + total)
                 alert("El descuento aplicado fue de " + des)  
              break;
-             case kilos:
+             case kilos >11:
                 totalsindescuento = precio*kilos;
                 des =totalsindescuento * 0.17;
                 total = totalsindescuento - des;
@@ -261,7 +261,7 @@ function descuentosFruteria() {
                 alert("El usuario debe pegar" + total)
                 alert("El descuento aplicado fue de " + des)  
              break;
-             case kilos:
+             case kilos >11:
                 totalsindescuento = precio*kilos;
                 des =totalsindescuento * 0.18;
                 total = totalsindescuento - des;
@@ -294,7 +294,7 @@ function descuentosFruteria() {
                 alert("El usuario debe pegar" + total)
                 alert("El descuento aplicado fue de " + des)  
              break;
-             case kilos:
+             case kilos >11:
                 totalsindescuento = precio*kilos;
                 des =totalsindescuento * 0.20;
                 total = totalsindescuento - des;
